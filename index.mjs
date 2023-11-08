@@ -1,4 +1,4 @@
-const os = require('os');
+import os from "os";
 
 // Get the number of CPU cores
 const numCores = os.cpus().length;
